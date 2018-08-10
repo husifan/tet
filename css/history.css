@@ -1,0 +1,18 @@
+.floor1{
+    max-width:70%;
+    position: relative;
+    margin-top:5%;
+    margin-left:auto;
+    margin-right:auto;
+    /* font-family: 'Segoe Print', Arial, sans-serif */
+}
+.floor1 .floor1_title{
+    font-size:4.0vmax;
+    text-align: center;
+    color:#000;
+    font-family: 'Segoe Print', Arial, sans-serif
+}
+.floor1 .floor1_texts{
+    margin-top:7%;
+    font-size: 1.4vmax;
+}

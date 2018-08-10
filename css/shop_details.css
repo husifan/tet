@@ -1,0 +1,59 @@
+.header{
+    height:100px;
+}
+.floor2{
+    margin-top: -3%;
+}
+.floor2_title{
+    margin-top: -3%;
+}
+/* 购物车图片 */
+.dropdowns>.dropdown-menus .drop_message>span img{
+    width:70px;
+    height:70px;
+}
+/*购物车文字*/
+.floor2>.floor2_title .dropdowns .dropdown-menus .dropssss .moneys{
+    line-height: 2.0vmax;
+    margin-right: 5px;
+}
+.floor2>.floor2_title .dropdowns .dropdown-menus .dropssss .jian,.jia{
+    border:2px solid #CCCCCC;
+    font-size: 1.5vmax;
+    cursor: pointer;
+}
+.main .f3 .f3_left .f3_left_title{
+    position: relative;
+}
+/*小遮罩层*/
+.main .f3 .f3_left .f3_left_title .fangda{
+    display: none;
+    border:1px solid;
+    background:skyblue;
+    width:50%;
+    height:50%;
+    position: absolute;
+	opacity: 0.3;
+}
+/*大遮罩层*/
+.main .f3 .f3_left .f3_left_title .zhezhao{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    cursor: move;
+}
+.main .f3 .f3_left{
+    position: relative;
+}
+/*放大镜显示屏*/
+.main .f3 .f3_left .show_large {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
